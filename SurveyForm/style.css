@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(#191714, #2234ae);
+}
+
+h1,
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+form {
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 3px;
+}
+
+#fieldset1 {
+    border-top: none;
+    border-color: #0b0b40;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-left: 4px solid #0b0b40;
+    border-right: 4px solid #0b0b40;
+    padding-top: 10px;
+}
+
+#fieldset1 label {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#fieldset1 label input,
+#fieldset1 label select {
+    display: block;
+    margin-top: 3px;
+    width: 95%;
+    height: 4vh;
+    border-radius: 8px;
+    background-color: #0b0b40;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+#fieldset1 label select {
+    width: 96.5%;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+#fieldset2,
+#fieldset3 {
+    border-bottom: none;
+    border-color: #0b0b40;
+    border-left: 4px solid #0b0b40;
+    border-right: 4px solid #0b0b40;
+}
+
+#fieldset2 {
+    margin-top: 10px;
+}
+
+#fieldset2>legend,
+#fieldset3>legend {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#fieldset2>label,
+#fieldset3>label {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #0b0b40;
+    color: white;
+    border-color: #0b0b4070;
+    width: 60%;
+    height: 4vh;
+    border-radius: 5px;
+}

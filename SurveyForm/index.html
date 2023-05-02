@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us</p>
+
+    <form action="" id="survey-form">
+
+        <fieldset id="fieldset1">
+            <label for="name" id="name-label"> Name
+                <input name="name" type="text" id="name" placeholder="Enter your name" required>
+            </label>
+            <label for="email" id="email-label"> Email
+                <input name="email" type="email" id="email" placeholder="Enter your email" required>
+            </label>
+            <label for="number" id="number-label"> Age
+                <input name="age" type="number" id="number" min="18" max="100" placeholder="Enter your age" required>
+            </label>
+            <label for="dropdown">What is your gender?
+                <select name="dropdown" id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="no-answer">Prefer Not to Answer</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset id="fieldset2">
+            <legend>Which field are you working in?</legend>
+            <label for="frontend">
+                <input type="radio" name="radio" id="frontend" value="frontend"> Front End Web Development
+            </label>
+            <label for="backend">
+                <input type="radio" name="radio" id="backend" value="backend"> Back End Web Development
+            </label>
+            <label for="fullstack">
+                <input type="radio" name="radio" id="fullstack" value="fullstack"> Full Stack Web Development
+            </label>
+            <label for="cyber">
+                <input type="radio" name="radio" id="cyber" value="cyber"> Cyber Security
+            </label>
+            <label for="devops">
+                <input type="radio" name="radio" id="devops" value="devops"> DevOps
+            </label>
+            <label for="android">
+                <input type="radio" name="radio" id="android" value="android"> Android Development
+            </label>
+            <label for="ios">
+                <input type="radio" name="radio" id="ios" value="ios"> IOS Development
+            </label>
+        </fieldset>
+        <fieldset id="fieldset3">
+            <legend>Check your favorites</legend>
+            <label for="html">
+                <input type="checkbox" name="checkbox" id="html" value="html"> HTML
+            </label>
+            <label for="css">
+                <input type="checkbox" name="checkbox" id="css" value="css"> CSS
+            </label>
+            <label for="js">
+                <input type="checkbox" name="checkbox" id="js" value="js"> JavaScript
+            </label>
+            <label for="java">
+                <input type="checkbox" name="checkbox" id="java" value="java"> Java
+            </label>
+            <label for="python">
+                <input type="checkbox" name="checkbox" id="python" value="python"> Python
+            </label>
+            <label for="c">
+                <input type="checkbox" name="checkbox" id="c" value="c"> C
+            </label>
+            <label for="csharp">
+                <input type="checkbox" name="checkbox" id="csharp" value="csharp"> C#
+            </label>
+            <label for="cpp">
+                <input type="checkbox" name="checkbox" id="cpp" value="cpp"> C++
+            </label>
+        </fieldset>
+        <label for="add">
+            <textarea name="add" id="add" cols="26" rows="4">Additional comments...</textarea>
+        </label>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
