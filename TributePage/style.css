@@ -1,0 +1,66 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#title {
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+#img-caption {
+    font-size: 0.8rem;
+    text-align: center;
+    font-style: italic;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+#tribute-info {
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+    text-align: justify;
+    border: 2px solid black;
+    border-top: none;
+    padding: 0 10px 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.large {
+    font-size: 1.3rem;
+}
+
+.medium {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
