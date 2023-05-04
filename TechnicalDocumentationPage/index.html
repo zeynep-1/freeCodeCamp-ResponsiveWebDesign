@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>PYTHON <span class="small">AND</span> JAVASCRIPT</h1>
+        </header>
+        <a href="#Python" class="nav-link">Python</a>
+        <a href="#JavaScript" class="nav-link">JavaScript</a>
+        <a href="#Python_Code" class="nav-link">Python Code</a>
+        <a href="#JavaScript_Code" class="nav-link">JavaScript Code</a>
+        <a href="#Cybersecurity" class="nav-link">Cybersecurity</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Python">
+            <header>
+                <h2>Python</h2>
+            </header>
+            <p>Python is a <span class="underline">high-level, general-purpose</span> programming language. Its design
+                philosophy emphasizes code
+                readability with the use of significant indentation via the <span class="bold">off-side rule</span>.</p>
+            <p>Python is <span class="underline">dynamically typed and garbage-collected</span>. It supports multiple
+                programming paradigms,
+                including <span class="bold">structured (particularly procedural), object-oriented and functional
+                    programming</span>. It is
+                often described as a <span class="italic">"batteries included"</span> language due to its comprehensive
+                standard library.</p>
+            <p><span class="medium bold">Guido van Rossum</span> began working on Python in the late 1980s as a
+                successor to the ABC programming
+                language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python
+                3.0, released in 2008, was a major revision not completely backward-compatible with earlier
+                versions.</p>
+            <p><span class="underline">Python consistently ranks as one of the most popular programming
+                    languages.</span></p>
+        </section>
+        <section class="main-section" id="JavaScript">
+            <header>
+                <h2>JavaScript</h2>
+            </header>
+            <p>JavaScript, often abbreviated as <span class="bold large">JS</span>, is a programming language that is
+                one of the
+                core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use
+                JavaScript on the <span class="italic">client side for webpage behavior</span>, often incorporating
+                third-party libraries. All
+                major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</p>
+            <p>JavaScript is a <span class="underline">high-level, often just-in-time compiled</span> language that
+                conforms to the <span class="bold medium">ECMAScript</span>
+                standard. It has <span class="bold">dynamic typing, prototype-based object-orientation, and first-class
+                    functions</span>.
+                It is <span class="bold">multi-paradigm, supporting event-driven, functional, and imperative</span>
+                programming styles. It has
+                <span class="medium">application programming interfaces (APIs)</span> for working with text, dates,
+                regular expressions,
+                standard data structures, and the Document Object Model (DOM).
+            </p>
+            <p>The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or
+                graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs
+                for I/O.</p>
+            <p>JavaScript engines were originally used only in web browsers, but are now core components of
+                some servers and a variety of applications. The most popular runtime system for this usage is
+                <span class="large">Node.js</span>.
+            </p>
+        </section>
+        <section class="main-section" id="Python_Code">
+            <header>
+                <h2>Python Code</h2>
+            </header>
+            <code>print('Hello, world!')</code>
+            <br>
+            <code>n = int(input('Type a number: '))<br>if n < 0:<br>&nbsp&nbsp&nbsp&nbspraise ValueError('Enter a non-negative integer')<br>factorial = 1<br>for i in range(2, n + 1):<br>&nbsp&nbsp&nbsp&nbspfactorial *= i<br>print(factorial)</code>
+        </section>
+        <section class="main-section" id="JavaScript_Code">
+            <header>
+                <h2>JavaScript Code</h2>
+            </header>
+            <code>console.log("Hello, World!");</code>
+            <br>
+            <code>function factorial(n) {<br>&nbsp&nbsp&nbsp&nbspif (isNaN(n)) {<br>&nbsp&nbsp&nbsp&nbspconsole.error("Non-numerical argument not allowed.");<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn NaN;<br>&nbsp&nbsp&nbsp&nbsp}<br>&nbsp&nbsp&nbsp&nbspif (n === 0)<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn 1;<br>&nbsp&nbsp&nbsp&nbspif (n < 0)<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn undefined;<br>&nbsp&nbsp&nbsp&nbspif (n % 1) {<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspn = Math.round(n);<br>&nbsp&nbsp&nbsp&nbsp}<br>&nbsp&nbspconst recursivelyCompute = a => a > 1 ? a * recursivelyCompute(a - 1) : 1;<br>&nbsp&nbsp&nbsp&nbspreturn recursivelyCompute(n);<br>}
+            </code>
+            <br>
+            <code>const counter = function() {<br>&nbsp&nbsplet count = 0;<br>&nbsp&nbspreturn function() {<br>&nbsp&nbsp&nbsp&nbspreturn ++count;<br>&nbsp&nbsp}<br>};<br>const x = counter();<br>x(); // Returns 1<br>x(); // Returns 2</code>
+        </section>
+        <section class="main-section" id="Cybersecurity">
+            <header>
+                <h2>Cybersecurity</h2>
+            </header>
+            <p>Computer security, cybersecurity (cyber security), digital security or information technology
+                security (IT security) is the protection of computer systems and networks from attack by malicious
+                actors that may result in unauthorized information disclosure, theft of, or damage to hardware,
+                software, or data, as well as from the disruption or misdirection of the services they provide.</p>
+            <p>The field has become of significance due to the expanded reliance on computer systems, the
+                Internet, and wireless network standards such as Bluetooth and Wi-Fi, and due to the growth of
+                smart devices that constitute the
+                Internet of things (IoT). Cybersecurity is one of the most significant challenges of the
+                contemporary world, due to both the complexity of information systems and the societies they
+                support. Security is of especially high importance for systems that govern large-scale systems with
+                far-reaching physical effects.</p>
+            <p>A <span class="large bold">vulnerability</span> is a weakness in design, implementation, operation, or internal control. Most of the
+                vulnerabilities that have been discovered are documented in the <span class="underline">Common Vulnerabilities and Exposures
+                    (CVE)</span> database. An exploitable vulnerability is one for which at least one working attack or
+                exploit exists. Vulnerabilities can be researched, reverse-engineered, hunted, or exploited
+                using automated tools or customized scripts.</p>
+            <p>To secure a computer system, it is important to understand the attacks that can be made against it,
+                and these threats can typically be classified into one of these categories below:</p>
+            <ul>
+                <li>Backdoor</li>
+                <li>Denial-of-service attack (DoS)</li>
+                <li>Direct-access attacks</li>
+                <li>Eavesdropping</li>
+                <li>Multi-vector, polymorphic attacks</li>
+                <li>Phishing</li>
+                <li>Privilege escalation</li>
+                <li>Reverse engineering</li>
+                <li>Side-channel attack</li>
+                <li>Social engineering</li>
+                <li>Spoofing</li>
+                <li>Tampering</li>
+                <li>Malware</li>
+                <li>HTML smuggling</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+
+</html>
