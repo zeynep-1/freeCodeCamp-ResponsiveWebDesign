@@ -4,12 +4,12 @@ body {
 }
 
 #navbar {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 20%;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 400vh;
+    height: 200vh;
 }
 
 #navbar h1 {
